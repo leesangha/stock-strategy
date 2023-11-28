@@ -2419,6 +2419,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lottie-react@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "lottie-react@npm:2.4.0"
+  dependencies:
+    lottie-web: "npm:^5.10.2"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 5c0ef3f1832b21232fe6826cc021cd90bb0e3c9d63f1047031ce77a0992092f8712b6f3a6aeeaa0f410d918ca557df160b1c776399f69b498c560273767befe0
+  languageName: node
+  linkType: hard
+
+"lottie-web@npm:^5.10.2":
+  version: 5.12.2
+  resolution: "lottie-web@npm:5.12.2"
+  checksum: 0aeaf631b10a76afd025df70c2a1486543530708e07a316946c08e55891dac483ffbaf2bf3648ae0b9c54c733118a0a086fd150aa76f7848606214c67ad72c30
+  languageName: node
+  linkType: hard
+
 "lru-cache@npm:^10.0.1, lru-cache@npm:^9.1.1 || ^10.0.0":
   version: 10.0.3
   resolution: "lru-cache@npm:10.0.3"
@@ -3120,6 +3139,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-ts-tradingview-widgets@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "react-ts-tradingview-widgets@npm:1.2.0"
+  peerDependencies:
+    react: ^17.0.2 || ^18.1.0
+    react-dom: ^17.0.2 || ^18.1.0
+  checksum: ea3d3a25f4d188f732767a9eee0e0e10ed3520362cbf3b5195f225882d15456b8f2cd04449230246b425f30061e795dd618333a51a1c335ba024a1f7dc500721
+  languageName: node
+  linkType: hard
+
 "react@npm:^18":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
@@ -3456,10 +3485,12 @@ __metadata:
     autoprefixer: "npm:^10.0.1"
     eslint: "npm:^8"
     eslint-config-next: "npm:14.0.3"
+    lottie-react: "npm:^2.4.0"
     next: "npm:14.0.3"
     postcss: "npm:^8"
     react: "npm:^18"
     react-dom: "npm:^18"
+    react-ts-tradingview-widgets: "npm:^1.2.0"
     tailwindcss: "npm:^3.3.0"
     typescript: "npm:^5.3.2"
   languageName: unknown
