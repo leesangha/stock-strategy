@@ -1,35 +1,9 @@
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
 .navbar {
-  @apply w-full flex justify-between;
-  &[data-active='true'] {
-    @apply bg-[#57aba4];
-    transition: background-color 0.7s ease;
-  }
-
-  &[data-active='false'] {
-    transition: background-color 0.7s ease;
-  }
+  @apply sticky w-full flex justify-between;
 }
 
 .navigation {
-  @apply fixed w-full h-full;
+  @apply fixed top-0 w-full h-full pt-50;
   &[data-active='true'] {
     @apply bg-[#57aba4];
     transition: background-color 0.7s ease;
