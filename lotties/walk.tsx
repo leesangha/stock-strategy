@@ -2,17 +2,16 @@
 import Lottie, { useLottie, useLottieInteractivity } from 'lottie-react'
 import groovyWalkAnimation from './json/groovyWalk.json'
 import robotAnimation from './json/robotAnimate.json'
-import { useEffect, useRef } from 'react'
+import financeAnimation from './json/finance.json'
 
-const options = {
-  animationData: robotAnimation,
+export const Finance = () => {
+  return <Lottie animationData={financeAnimation} />
 }
 
 export const Robot = () => {
   return (
     <Lottie
       animationData={robotAnimation}
-      style={{ height: 1000 }}
       interactivity={{
         mode: 'scroll',
         actions: [

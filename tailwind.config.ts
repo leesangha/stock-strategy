@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+const colors = require('./colors.json')
 
 const spacingSize = 241
 const spacing = {
@@ -17,15 +18,6 @@ const zIndex = {
   ...Object.fromEntries(Array.from({ length: zIndexSize }, (_, i) => [i, i])),
 }
 
-const toSizeObject = (array: any[]) =>
-  array.reduce(
-    (obj, v) => {
-      obj[v] = `${v}px`
-      return obj
-    },
-    { 0: '0' }
-  )
-
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -34,6 +26,8 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors,
+
       borderRadius: {
         xxs: '4px',
         xs: '6px',

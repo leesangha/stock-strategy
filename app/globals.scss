@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply no-scrollbar;
+  }
+}
+
+@layer components {
+  .full-screen {
+    width: 100%;
+    height: 100vh;
+    @supports (-webkit-touch-callout: none) {
+      height: -webkit-fill-available;
+      max-height: -webkit-fill-available;
+    }
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer utilities {
+}

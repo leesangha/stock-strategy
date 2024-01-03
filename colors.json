@@ -1,0 +1,58 @@
+{
+  "bg": {
+    "main": "#EFEFE8"
+  },
+  "accent": {
+    "main": "#29217A",
+    "light": "#4E4980",
+    "dark1": "#151050",
+    "dark2": "#170D40"
+  },
+
+  "icon": {
+    "main": "#112439",
+    "light1": "#6D7F92",
+    "light2": "#151050"
+  },
+
+  "gray": {
+    "50": "#F9F9F9",
+    "100": "#EDEDED",
+    "200": "#E0E0E0",
+    "300": "#BFBFBF",
+    "400": "#999999",
+    "500": "#737373",
+    "600": "#4D4D4D",
+    "700": "#262626"
+  },
+
+  "primary": {
+    "bg": "#FFEEEE",
+    "main": "#FF6060",
+    "dark": "#F24545",
+    "logo": "#FE5353",
+    "light1": "#FFE3E3",
+    "light2": "#FFCCCC",
+    "50": "#FFF2F2",
+    "600": "#ff6060",
+    "700": "#E52E2E"
+  },
+
+  "secondary": {
+    "bg": "#F7F3FF",
+    "main": "#CCAFFF",
+    "dark": "#6D29E9",
+    "middle": "#9D67FE",
+    "light": "#EADEFF"
+  },
+
+  "border": {
+    "main": "rgba(28,28,28,0.3)"
+  },
+
+  "social": {
+    "apple": "#000000",
+    "twitter": "#1D9BF0",
+    "naver": "#03C75A"
+  }
+}
