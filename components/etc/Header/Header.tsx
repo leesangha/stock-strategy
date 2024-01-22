@@ -7,11 +7,11 @@ export function Header() {
   const { isShowing, toggle } = useToggle({ showing: false })
   return (
     <>
-      <header className="navbar z-9" data-active={isShowing}>
+      <header className="header-navbar" data-active={isShowing}>
         <div>lee sangha</div>
         <Hamburger toggle={toggle} />
       </header>
-      <nav className="navigation" data-active={isShowing}>
+      <nav className="header-navigation" data-active={isShowing}>
         <ul>
           <li>CHI SONO</li>
           <li>CHI SONO</li>
