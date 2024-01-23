@@ -600,7 +600,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-slot@npm:1.0.2":
+"@radix-ui/react-slot@npm:1.0.2, @radix-ui/react-slot@npm:^1.0.2":
   version: 1.0.2
   resolution: "@radix-ui/react-slot@npm:1.0.2"
   dependencies:
@@ -1840,6 +1840,34 @@ __metadata:
   version: 1.4.589
   resolution: "electron-to-chromium@npm:1.4.589"
   checksum: 6d632d8367c7fae10d4ba68bc255305b676c2f5924035f29a6e6ea818a1f1e92d0aee3ac210ad097e7de0fcd248f932c12638c1e458144de9340c5889cad2ceb
+  languageName: node
+  linkType: hard
+
+"embla-carousel-react@npm:^8.0.0-rc19":
+  version: 8.0.0-rc19
+  resolution: "embla-carousel-react@npm:8.0.0-rc19"
+  dependencies:
+    embla-carousel: "npm:8.0.0-rc19"
+    embla-carousel-reactive-utils: "npm:8.0.0-rc19"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.1 || ^18.0.0
+  checksum: e5c8676b1696e412d695851a59db3ffbfe0982c2b0cef590a99af2fa5db1ad8ef9f720a56b93dc7c07886ce55cb9bf9deb1a18ed92f2e635669dc66f5b66325d
+  languageName: node
+  linkType: hard
+
+"embla-carousel-reactive-utils@npm:8.0.0-rc19":
+  version: 8.0.0-rc19
+  resolution: "embla-carousel-reactive-utils@npm:8.0.0-rc19"
+  peerDependencies:
+    embla-carousel: 8.0.0-rc19
+  checksum: 46e872c7900754cacf84fef0ce26d31f68836887de20a97ff708a6235ea96c0ced9e88ba038d1ae0e4f4666f85e9fb1bb0dcb8a5f7dc80fc5b371a1c2380c275
+  languageName: node
+  linkType: hard
+
+"embla-carousel@npm:8.0.0-rc19":
+  version: 8.0.0-rc19
+  resolution: "embla-carousel@npm:8.0.0-rc19"
+  checksum: b50247def6fc742b0f43a92fe565c00fb0f3b93d3819b93e808cf0b6ddbfa5f37e21d6190805fcf462da417aea02d978726d66f6004c8154b0be12039ec6836e
   languageName: node
   linkType: hard
 
@@ -4870,6 +4898,7 @@ __metadata:
     "@amcharts/amcharts4": "npm:^4.10.38"
     "@amcharts/amcharts4-fonts": "npm:^4.0.1"
     "@radix-ui/react-icons": "npm:^1.3.0"
+    "@radix-ui/react-slot": "npm:^1.0.2"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
@@ -4877,6 +4906,7 @@ __metadata:
     autoprefixer: "npm:^10.0.1"
     class-variance-authority: "npm:^0.7.0"
     clsx: "npm:^2.1.0"
+    embla-carousel-react: "npm:^8.0.0-rc19"
     eslint: "npm:^8"
     eslint-config-next: "npm:14.0.3"
     lottie-react: "npm:^2.4.0"

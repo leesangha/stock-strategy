@@ -1,6 +1,13 @@
 'use client'
 import { CardSection } from '@/components/etc/CardSection'
 import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/Carousel'
+import {
   Drawer,
   DrawerClose,
   DrawerContent,
@@ -17,7 +24,7 @@ export default function Home() {
     <div>
       {/* <AdvancedRealTimeChart /> */}
       {/* <CardSection /> */}
-      <Drawer>
+      {/* <Drawer>
         <DrawerTrigger>Open</DrawerTrigger>
         <DrawerContent>
           <DrawerHeader>
@@ -31,7 +38,29 @@ export default function Home() {
             </DrawerClose>
           </DrawerFooter>
         </DrawerContent>
-      </Drawer>
+      </Drawer> */}
+      {/* <Carousel
+      opts={{
+        align: "start",
+      }}
+      className="w-full max-w-sm"
+    >
+      <CarouselContent>
+        {Array.from({ length: 5 }).map((_, index) => (
+          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+            <div className="p-1">
+              <Card>
+                <CardContent className="flex aspect-square items-center justify-center p-6">
+                  <span className="text-3xl font-semibold">{index + 1}</span>
+                </CardContent>
+              </Card>
+            </div>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel> */}
     </div>
   )
 }
