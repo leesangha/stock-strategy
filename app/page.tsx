@@ -24,7 +24,7 @@ export default function Home() {
     <div>
       {/* <AdvancedRealTimeChart /> */}
       {/* <CardSection /> */}
-      {/* <Drawer>
+      <Drawer>
         <DrawerTrigger>Open</DrawerTrigger>
         <DrawerContent>
           <DrawerHeader>
@@ -38,7 +38,7 @@ export default function Home() {
             </DrawerClose>
           </DrawerFooter>
         </DrawerContent>
-      </Drawer> */}
+      </Drawer>
       {/* <Carousel
       opts={{
         align: "start",

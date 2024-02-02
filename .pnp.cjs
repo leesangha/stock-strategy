@@ -52,7 +52,8 @@ const RAW_RUNTIME_STATE =
           ["tailwindcss-animate", "virtual:4227459dedccbddcd65cdd26fdc82d4ba8561e3b4a64244401f3bce3970a4d3519ceec8afff9cf00d9731ed99ddba36c8a99d0e15b0826dee0794e79ea7b2598#npm:1.0.7"],\
           ["three", "npm:0.158.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
-          ["vaul", "virtual:4227459dedccbddcd65cdd26fdc82d4ba8561e3b4a64244401f3bce3970a4d3519ceec8afff9cf00d9731ed99ddba36c8a99d0e15b0826dee0794e79ea7b2598#npm:0.8.9"]\
+          ["vaul", "virtual:4227459dedccbddcd65cdd26fdc82d4ba8561e3b4a64244401f3bce3970a4d3519ceec8afff9cf00d9731ed99ddba36c8a99d0e15b0826dee0794e79ea7b2598#npm:0.8.9"],\
+          ["yahoo-finance2", "npm:2.9.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1044,6 +1045,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/tough-cookie", [\
+      ["npm:4.0.5", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-tough-cookie-npm-4.0.5-8c5e2162e1-10c0.zip/node_modules/@types/tough-cookie/",\
+        "packageDependencies": [\
+          ["@types/tough-cookie", "npm:4.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/webxr", [\
       ["npm:0.5.10", {\
         "packageLocation": "../../../.yarn/berry/cache/@types-webxr-npm-0.5.10-eb59aafe6a-10c0.zip/node_modules/@types/webxr/",\
@@ -1251,6 +1261,39 @@ const RAW_RUNTIME_STATE =
           ["fast-json-stable-stringify", "npm:2.1.0"],\
           ["json-schema-traverse", "npm:0.4.1"],\
           ["uri-js", "npm:4.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:8.10.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/ajv-npm-8.10.0-951733a67b-10c0.zip/node_modules/ajv/",\
+        "packageDependencies": [\
+          ["ajv", "npm:8.10.0"],\
+          ["fast-deep-equal", "npm:3.1.3"],\
+          ["json-schema-traverse", "npm:1.0.0"],\
+          ["require-from-string", "npm:2.0.2"],\
+          ["uri-js", "npm:4.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["ajv-formats", [\
+      ["npm:2.1.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/ajv-formats-npm-2.1.1-3cec02eae9-10c0.zip/node_modules/ajv-formats/",\
+        "packageDependencies": [\
+          ["ajv-formats", "npm:2.1.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/ajv-formats-virtual-abcde5615c/4/.yarn/berry/cache/ajv-formats-npm-2.1.1-3cec02eae9-10c0.zip/node_modules/ajv-formats/",\
+        "packageDependencies": [\
+          ["ajv-formats", "virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.1.1"],\
+          ["@types/ajv", null],\
+          ["ajv", "npm:8.10.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/ajv",\
+          "ajv"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4164,6 +4207,13 @@ const RAW_RUNTIME_STATE =
           ["json-schema-traverse", "npm:0.4.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/json-schema-traverse-npm-1.0.0-fb3684f4f0-10c0.zip/node_modules/json-schema-traverse/",\
+        "packageDependencies": [\
+          ["json-schema-traverse", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["json-stable-stringify-without-jsonify", [\
@@ -4657,6 +4707,29 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/next-tick-npm-1.1.0-e0eb60d6a4-10c0.zip/node_modules/next-tick/",\
         "packageDependencies": [\
           ["next-tick", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["node-fetch", [\
+      ["npm:2.7.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/node-fetch-npm-2.7.0-587d57004e-10c0.zip/node_modules/node-fetch/",\
+        "packageDependencies": [\
+          ["node-fetch", "npm:2.7.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.7.0", {\
+        "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-7030d011c7/4/.yarn/berry/cache/node-fetch-npm-2.7.0-587d57004e-10c0.zip/node_modules/node-fetch/",\
+        "packageDependencies": [\
+          ["node-fetch", "virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.7.0"],\
+          ["@types/encoding", null],\
+          ["encoding", null],\
+          ["whatwg-url", "npm:5.0.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/encoding",\
+          "encoding"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5245,11 +5318,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["psl", [\
+      ["npm:1.9.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/psl-npm-1.9.0-a546edad1a-10c0.zip/node_modules/psl/",\
+        "packageDependencies": [\
+          ["psl", "npm:1.9.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["punycode", [\
       ["npm:2.3.1", {\
         "packageLocation": "../../../.yarn/berry/cache/punycode-npm-2.3.1-97543c420d-10c0.zip/node_modules/punycode/",\
         "packageDependencies": [\
           ["punycode", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["querystringify", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/querystringify-npm-2.2.0-4e77c9f606-10c0.zip/node_modules/querystringify/",\
+        "packageDependencies": [\
+          ["querystringify", "npm:2.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5507,6 +5598,24 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/regression-npm-2.0.1-50bfc2587a-10c0.zip/node_modules/regression/",\
         "packageDependencies": [\
           ["regression", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["require-from-string", [\
+      ["npm:2.0.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/require-from-string-npm-2.0.2-8557e0db12-10c0.zip/node_modules/require-from-string/",\
+        "packageDependencies": [\
+          ["require-from-string", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["requires-port", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/requires-port-npm-1.0.0-fd036b488a-10c0.zip/node_modules/requires-port/",\
+        "packageDependencies": [\
+          ["requires-port", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5952,7 +6061,8 @@ const RAW_RUNTIME_STATE =
           ["tailwindcss-animate", "virtual:4227459dedccbddcd65cdd26fdc82d4ba8561e3b4a64244401f3bce3970a4d3519ceec8afff9cf00d9731ed99ddba36c8a99d0e15b0826dee0794e79ea7b2598#npm:1.0.7"],\
           ["three", "npm:0.158.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
-          ["vaul", "virtual:4227459dedccbddcd65cdd26fdc82d4ba8561e3b4a64244401f3bce3970a4d3519ceec8afff9cf00d9731ed99ddba36c8a99d0e15b0826dee0794e79ea7b2598#npm:0.8.9"]\
+          ["vaul", "virtual:4227459dedccbddcd65cdd26fdc82d4ba8561e3b4a64244401f3bce3970a4d3519ceec8afff9cf00d9731ed99ddba36c8a99d0e15b0826dee0794e79ea7b2598#npm:0.8.9"],\
+          ["yahoo-finance2", "npm:2.9.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -6327,6 +6437,38 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["tough-cookie", [\
+      ["npm:4.1.3", {\
+        "packageLocation": "../../../.yarn/berry/cache/tough-cookie-npm-4.1.3-08285e2518-10c0.zip/node_modules/tough-cookie/",\
+        "packageDependencies": [\
+          ["tough-cookie", "npm:4.1.3"],\
+          ["psl", "npm:1.9.0"],\
+          ["punycode", "npm:2.3.1"],\
+          ["universalify", "npm:0.2.0"],\
+          ["url-parse", "npm:1.5.10"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tough-cookie-file-store", [\
+      ["npm:2.0.3", {\
+        "packageLocation": "../../../.yarn/berry/cache/tough-cookie-file-store-npm-2.0.3-8f24c9afeb-10c0.zip/node_modules/tough-cookie-file-store/",\
+        "packageDependencies": [\
+          ["tough-cookie-file-store", "npm:2.0.3"],\
+          ["tough-cookie", "npm:4.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tr46", [\
+      ["npm:0.0.3", {\
+        "packageLocation": "../../../.yarn/berry/cache/tr46-npm-0.0.3-de53018915-10c0.zip/node_modules/tr46/",\
+        "packageDependencies": [\
+          ["tr46", "npm:0.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ts-api-utils", [\
       ["npm:1.0.3", {\
         "packageLocation": "../../../.yarn/berry/cache/ts-api-utils-npm-1.0.3-992f360d9b-10c0.zip/node_modules/ts-api-utils/",\
@@ -6556,6 +6698,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["universalify", [\
+      ["npm:0.2.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/universalify-npm-0.2.0-9984e61c10-10c0.zip/node_modules/universalify/",\
+        "packageDependencies": [\
+          ["universalify", "npm:0.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["update-browserslist-db", [\
       ["npm:1.0.13", {\
         "packageLocation": "../../../.yarn/berry/cache/update-browserslist-db-npm-1.0.13-ea7b8ee24d-10c0.zip/node_modules/update-browserslist-db/",\
@@ -6586,6 +6737,17 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["uri-js", "npm:4.4.1"],\
           ["punycode", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["url-parse", [\
+      ["npm:1.5.10", {\
+        "packageLocation": "../../../.yarn/berry/cache/url-parse-npm-1.5.10-64fa2bcd6d-10c0.zip/node_modules/url-parse/",\
+        "packageDependencies": [\
+          ["url-parse", "npm:1.5.10"],\
+          ["querystringify", "npm:2.2.0"],\
+          ["requires-port", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6680,6 +6842,26 @@ const RAW_RUNTIME_STATE =
           ["watchpack", "npm:2.4.0"],\
           ["glob-to-regexp", "npm:0.4.1"],\
           ["graceful-fs", "npm:4.2.11"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["webidl-conversions", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/webidl-conversions-npm-3.0.1-60310f6a2b-10c0.zip/node_modules/webidl-conversions/",\
+        "packageDependencies": [\
+          ["webidl-conversions", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["whatwg-url", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/whatwg-url-npm-5.0.0-374fb45e60-10c0.zip/node_modules/whatwg-url/",\
+        "packageDependencies": [\
+          ["whatwg-url", "npm:5.0.0"],\
+          ["tr46", "npm:0.0.3"],\
+          ["webidl-conversions", "npm:3.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6819,6 +7001,21 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/xtend-npm-4.0.2-7f2375736e-10c0.zip/node_modules/xtend/",\
         "packageDependencies": [\
           ["xtend", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["yahoo-finance2", [\
+      ["npm:2.9.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/yahoo-finance2-npm-2.9.0-e10dac19c8-10c0.zip/node_modules/yahoo-finance2/",\
+        "packageDependencies": [\
+          ["yahoo-finance2", "npm:2.9.0"],\
+          ["@types/tough-cookie", "npm:4.0.5"],\
+          ["ajv", "npm:8.10.0"],\
+          ["ajv-formats", "virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.1.1"],\
+          ["node-fetch", "virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.7.0"],\
+          ["tough-cookie", "npm:4.1.3"],\
+          ["tough-cookie-file-store", "npm:2.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
