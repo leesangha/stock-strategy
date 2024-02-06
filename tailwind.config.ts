@@ -1,23 +1,6 @@
 import type { Config } from 'tailwindcss'
 const colors = require('./colors.json')
 
-const spacingSize = 241
-const spacing = {
-  auto: 'auto',
-  ...Object.fromEntries(
-    Array.from({ length: spacingSize }, (_, i) => [
-      i - (spacingSize >> 1),
-      `${i - (spacingSize >> 1)}px`,
-    ])
-  ),
-}
-
-const zIndexSize = 101
-const zIndex = {
-  auto: 'auto',
-  ...Object.fromEntries(Array.from({ length: zIndexSize }, (_, i) => [i, i])),
-}
-
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -165,15 +148,6 @@ const config: Config = {
         bold: '700',
         extrabold: '800',
       },
-
-      gap: spacing,
-
-      margin: spacing,
-      padding: spacing,
-
-      spacing,
-
-      zIndex,
 
       screens: {
         xs: { max: '575px' },
