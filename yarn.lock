@@ -5117,7 +5117,7 @@ __metadata:
     three: "npm:^0.158.0"
     typescript: "npm:^5.3.2"
     vaul: "npm:^0.8.9"
-    yahoo-finance2: "npm:^2.9.0"
+    yahoo-finance2: "npm:^2.9.1"
   languageName: unknown
   linkType: soft
 
@@ -5907,9 +5907,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yahoo-finance2@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "yahoo-finance2@npm:2.9.0"
+"yahoo-finance2@npm:^2.9.1":
+  version: 2.9.1
+  resolution: "yahoo-finance2@npm:2.9.1"
   dependencies:
     "@types/tough-cookie": "npm:^4.0.2"
     ajv: "npm:8.10.0"
@@ -5919,7 +5919,7 @@ __metadata:
     tough-cookie-file-store: "npm:^2.0.3"
   bin:
     yahoo-finance: bin/yahoo-finance.js
-  checksum: 241171728f00141fd1b0b86204dc1280c4a9262637747ab2fe466720ac15277f59534efeb1186babf411d164ff5925480c211fa70f507bde1f9ba0fc94844694
+  checksum: 466683eb05534e4596a5e4597093cccf16766c84f6b13c3aac5f9ed28528ea7189279fa627fb121119d8f38176f9fe3c1645d815158f5f9d2597cd747d14dcdf
   languageName: node
   linkType: hard
 

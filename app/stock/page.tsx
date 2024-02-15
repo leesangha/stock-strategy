@@ -13,12 +13,13 @@ import yahooFinance from 'yahoo-finance2'
 import { Button } from '@/components/ui/Button'
 
 export default async function StockPage() {
-  // const results = await yahooFinance.quote('AAPL')
+  // const results = await yahooFinance.quote('^VIX')
   // console.log(results)
 
   return (
     <div className="w-full h-screen p-4">
-      <Tabs defaultValue="account" className="w-full">
+      <h3>Vix 지수 활용</h3>
+      {/* <Tabs defaultValue="account" className="w-full">
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="account">Account</TabsTrigger>
           <TabsTrigger value="password">Password</TabsTrigger>
@@ -69,7 +70,7 @@ export default async function StockPage() {
             </CardFooter>
           </Card>
         </TabsContent>
-      </Tabs>
+      </Tabs> */}
     </div>
   )
 }

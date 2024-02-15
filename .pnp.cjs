@@ -55,7 +55,7 @@ const RAW_RUNTIME_STATE =
           ["three", "npm:0.158.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
           ["vaul", "virtual:4227459dedccbddcd65cdd26fdc82d4ba8561e3b4a64244401f3bce3970a4d3519ceec8afff9cf00d9731ed99ddba36c8a99d0e15b0826dee0794e79ea7b2598#npm:0.8.9"],\
-          ["yahoo-finance2", "npm:2.9.0"]\
+          ["yahoo-finance2", "npm:2.9.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1439,10 +1439,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.1.1", {\
-        "packageLocation": "./.yarn/__virtual__/ajv-formats-virtual-abcde5615c/4/.yarn/berry/cache/ajv-formats-npm-2.1.1-3cec02eae9-10c0.zip/node_modules/ajv-formats/",\
+      ["virtual:44ca1faddbee3bc51d1bf4d42bfb5b533e07c137cfb0a319aec81a7e09358e7e0ccc26f6651d78cacee66295cce2e3b5af56092af5b5a7c9b953e5f50d92518d#npm:2.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/ajv-formats-virtual-69d8479646/4/.yarn/berry/cache/ajv-formats-npm-2.1.1-3cec02eae9-10c0.zip/node_modules/ajv-formats/",\
         "packageDependencies": [\
-          ["ajv-formats", "virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.1.1"],\
+          ["ajv-formats", "virtual:44ca1faddbee3bc51d1bf4d42bfb5b533e07c137cfb0a319aec81a7e09358e7e0ccc26f6651d78cacee66295cce2e3b5af56092af5b5a7c9b953e5f50d92518d#npm:2.1.1"],\
           ["@types/ajv", null],\
           ["ajv", "npm:8.10.0"]\
         ],\
@@ -4859,10 +4859,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.7.0", {\
-        "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-7030d011c7/4/.yarn/berry/cache/node-fetch-npm-2.7.0-587d57004e-10c0.zip/node_modules/node-fetch/",\
+      ["virtual:44ca1faddbee3bc51d1bf4d42bfb5b533e07c137cfb0a319aec81a7e09358e7e0ccc26f6651d78cacee66295cce2e3b5af56092af5b5a7c9b953e5f50d92518d#npm:2.7.0", {\
+        "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-08ea204d1f/4/.yarn/berry/cache/node-fetch-npm-2.7.0-587d57004e-10c0.zip/node_modules/node-fetch/",\
         "packageDependencies": [\
-          ["node-fetch", "virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.7.0"],\
+          ["node-fetch", "virtual:44ca1faddbee3bc51d1bf4d42bfb5b533e07c137cfb0a319aec81a7e09358e7e0ccc26f6651d78cacee66295cce2e3b5af56092af5b5a7c9b953e5f50d92518d#npm:2.7.0"],\
           ["@types/encoding", null],\
           ["encoding", null],\
           ["whatwg-url", "npm:5.0.0"]\
@@ -6204,7 +6204,7 @@ const RAW_RUNTIME_STATE =
           ["three", "npm:0.158.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
           ["vaul", "virtual:4227459dedccbddcd65cdd26fdc82d4ba8561e3b4a64244401f3bce3970a4d3519ceec8afff9cf00d9731ed99ddba36c8a99d0e15b0826dee0794e79ea7b2598#npm:0.8.9"],\
-          ["yahoo-finance2", "npm:2.9.0"]\
+          ["yahoo-finance2", "npm:2.9.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -7137,14 +7137,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["yahoo-finance2", [\
-      ["npm:2.9.0", {\
-        "packageLocation": "../../../.yarn/berry/cache/yahoo-finance2-npm-2.9.0-e10dac19c8-10c0.zip/node_modules/yahoo-finance2/",\
+      ["npm:2.9.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/yahoo-finance2-npm-2.9.1-44ca1faddb-10c0.zip/node_modules/yahoo-finance2/",\
         "packageDependencies": [\
-          ["yahoo-finance2", "npm:2.9.0"],\
+          ["yahoo-finance2", "npm:2.9.1"],\
           ["@types/tough-cookie", "npm:4.0.5"],\
           ["ajv", "npm:8.10.0"],\
-          ["ajv-formats", "virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.1.1"],\
-          ["node-fetch", "virtual:e10dac19c8f802b7e267b5d724d01f37fc2db3976697156d0f484ca6b2e2da81bf32f6d499e7279d3526d7833fe2bf8432bbc003f2a02ae42a24cb65fdf80525#npm:2.7.0"],\
+          ["ajv-formats", "virtual:44ca1faddbee3bc51d1bf4d42bfb5b533e07c137cfb0a319aec81a7e09358e7e0ccc26f6651d78cacee66295cce2e3b5af56092af5b5a7c9b953e5f50d92518d#npm:2.1.1"],\
+          ["node-fetch", "virtual:44ca1faddbee3bc51d1bf4d42bfb5b533e07c137cfb0a319aec81a7e09358e7e0ccc26f6651d78cacee66295cce2e3b5af56092af5b5a7c9b953e5f50d92518d#npm:2.7.0"],\
           ["tough-cookie", "npm:4.1.3"],\
           ["tough-cookie-file-store", "npm:2.0.3"]\
         ],\
