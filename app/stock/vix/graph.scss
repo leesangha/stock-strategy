@@ -1,0 +1,28 @@
+.sector {
+  position: absolute;
+  transform-origin: 100% 100%;
+  background: white;
+  width: 5000px;
+  height: 5000px;
+  left: 50%;
+  top: 100%;
+  border: 1px solid #ccc;
+  margin-top: -5000px;
+  margin-left: -5000px;
+
+  &:hover {
+    background: #e2e2e2;
+  }
+
+  &-circle {
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    top: 80px;
+    left: 100px;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    background-color: black;
+    z-index: 5;
+  }
+}
